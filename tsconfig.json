@@ -9,8 +9,9 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "outDir": "dist",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "rootDirs": ["src"]
   },
-  "include": ["*.ts"],
+  "include": ["*.ts", "src/index.ts"],
   "exclude": ["node_modules", "src/types/generated/**/*.ts"]
 }
